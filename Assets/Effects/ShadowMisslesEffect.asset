@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb6549b2e0226a4ab345805ae480353, type: 3}
+  m_Name: ShadowMisslesEffect
+  m_EditorClassIdentifier: 
+  Name: Shadow Missles
+  Description: "\u0421\u0442\u0440\u0435\u043B\u044F\u0435\u0442 \u0432 \u0440\u0430\u0437\u043D\u044B\u0435
+    \u0441\u0442\u043E\u0440\u043E\u043D\u044B"
+  Sprite: {fileID: 21300000, guid: c78eadc3be2cfe144aaefdcb1ee88abf, type: 3}
+  Level: 0
+  ActiveSkills: 01010001000100
+  SkillLevels:
+  - Values:
+    - 2.5
+    - 2
+    - 2
+    - 2
+    - 1.5
+    - 1.5
+    - 1.5
+    - 1
+    - 1
+    - 1
+  - Values:
+    - 5.5
+    - 5.5
+    - 16.5
+    - 16.5
+    - 16.5
+    - 27.5
+    - 27.5
+    - 43.5
+    - 43.5
+    - 81.5
+  - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Values:
+    - 3
+    - 3
+    - 3
+    - 5
+    - 5
+    - 5
+    - 7
+    - 7
+    - 9
+    - 9
+  - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Values:
+    - 2
+    - 2
+    - 4
+    - 4
+    - 4
+    - 6
+    - 6
+    - 6
+    - 8
+    - 8
+  - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  SkillLevelsAdditions:
+  - Values:
+    - 2.5
+    - -0.5
+    - 0
+    - 0
+    - -0.5
+    - 0
+    - 0
+    - -0.5
+    - 0
+    - 0
+  - Values:
+    - 5.5
+    - 0
+    - 11
+    - 0
+    - 0
+    - 11
+    - 0
+    - 16
+    - 0
+    - 38
+  - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Values:
+    - 3
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    - 2
+    - 0
+    - 2
+    - 0
+  - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - Values:
+    - 2
+    - 0
+    - 2
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    - 2
+    - 0
+  - Values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  OnLoad:
+    m_PersistentCalls:
+      m_Calls: []
+  _shadowMisslePrefab: {fileID: 2497091553312713756, guid: 77fc0f0f934be9d42afd9a3b4e02b2dd,
+    type: 3}
+  _bulletSpeed: 10
