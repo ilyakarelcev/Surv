@@ -1,4 +1,3 @@
-//using Eccentric;
 using UnityEngine;
 
 public class RigidbodyMove : MonoBehaviour
@@ -8,13 +7,14 @@ public class RigidbodyMove : MonoBehaviour
     [SerializeField] private float _speed = 5f;
     [SerializeField] private Joystick _joystick;
     private Vector2 _moveInput;
-    [SerializeField] private Player _player;
     [SerializeField] private Animator _animator;
+
+    [SerializeField] private Player _player;
 
     private void Update()
     {
         _moveInput = _joystick.Value.normalized;
-        
+
         if (_moveInput == Vector2.zero)
         {
             _animator.SetBool("Run", false);

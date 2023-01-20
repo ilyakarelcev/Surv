@@ -19,9 +19,10 @@ public class CardManager : MonoBehaviour
         }
     }
 
-    public void ShowCards(List<Effect> effects, int level) {
+    // Показать карты с соответствующими эффектами
+    public void ShowCards(List<Effect> effects, int level)
+    {
         _cardManagerParent.SetActive(true);
-
         _levelText.text = level.ToString();
 
         for (int i = 0; i < effects.Count; i++)
@@ -35,7 +36,8 @@ public class CardManager : MonoBehaviour
         }
     }
 
-    public void HideCards() {
+    public void HideCards()
+    {
         _cardManagerParent.SetActive(false);
     }
 

@@ -65,9 +65,7 @@ public class GameManager : MonoBehaviour
     }
 
     private IEnumerator WaitForClick() {
-        //yield return new WaitUntil(() => Input.GetMouseButtonUp(0));
         yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
-        
         Time.timeScale = 1f;
     }
 

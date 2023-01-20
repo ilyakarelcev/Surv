@@ -8,7 +8,7 @@ public class TopIconManager : MonoBehaviour
     [SerializeField] private TopIcon[] _topIconsOneTime;
     [SerializeField] private TopIcon[] _topIconsContinuous;
 
-    public void AddIccon(Effect effect)
+    public void AddIcon(Effect effect)
     {
         if (effect is OneTimeEffect)
         {
